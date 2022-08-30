@@ -1,0 +1,77 @@
+
+
+.navbar {
+    background: #839278;
+    height: 100px;
+    padding: 0;
+
+
+
+}
+.navbar>.container-fluid {
+    margin: 0 230px;
+}
+.navbar-logo {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex: inherit;
+}
+.nav-text{
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 130%;
+    color: white;
+    margin: 0 30px;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-text:hover{
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+}
+
+.bizon  {
+    height: 700px;
+    width: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bizon img{
+width: 100%;
+max-height: 700px;}
+
+.bizon-h1 {
+    position: absolute;
+    left: 50%;
+    top: 468px;
+    font-size: 32px;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;}
+.bizon-p {
+    font-size: 28px;
+    width: 1080px;
+    position: absolute;
+    left: 50%;
+    top: 550px;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+}
